@@ -9,7 +9,8 @@
   <meta name="author" content="Chaitanya Pramod">
 
   
-  <meta name="description" content="Blog Archives Recent Posts Github Repos Status updating&#8230; @chaitanyapramod on Github $.domReady(function(){ if (!window.jXHR){ var jxhr = &hellip;">
+  <meta name="description" content="Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here.
+Working with Octopress was fun. Setting up a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +25,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Chaitanya Pramod" type="application/atom+xml">
+  <link href="http://feeds.feedburner.com/ChaitanyaPramod" rel="alternate" title="Chaitanya Pramod" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -54,8 +55,10 @@
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/ChaitanyaPramod" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=ChaitanyaPramod" rel="subscribe-email" title="subscribe via email">Email</a></li>
   
 </ul>
   
@@ -69,6 +72,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about/">About</a></li>
 </ul>
 
 </nav>
@@ -76,6 +80,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/first-post/">First Post</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-12T12:30:00+05:30" pubdate data-updated="true">Feb 12<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here.
+Working with <a href="http://octopress.org">Octopress</a> was fun. Setting up a blog on commandline is way cooler than doing it the wordpress style. Of course, Octopress drew me to itself with its subtitle:</p>
+
+<blockquote><p>A blogging framework for hackers.</p></blockquote>
+
+<p>I noticed <a href="http://nimbupani.com/">Divya Manian</a> <a href="http://nimbupani.com/redesign-notes.html">move her blog to Octopress</a>. After looking up Octopress and what people feel about it (everyone seems to like it), I decided to try it myself.</p>
+
+<p>After reading almost all of the <a href="http://octopress.org">Octopress site</a>, I cloned the <a href="http://github.com/imathis/octopress">Octopress repo</a>, setup a <a href="https://disqus.com">Disqus</a> account for the site and plugged in account into the config files. All commands are run through rake, which makes it as easy as:</p>
+
+<blockquote><p>rake new_page[page_title]         # create a new page<br/>
+rake new_post[post_title]         # create a new post<br/>
+rake preview                      # fire up a local server and prievew the site at localhost:4000
+rake deploy                       # Make it live! :)</p></blockquote>
+
+<p>Just now realized that syntax highlighting breaks on Windows. Gotta find a fix for it soon. The Google Fonts were making the pages render slower, so I am thinking if they should be removed. The styles look good, but will spend some time on the CSS and fiddle around with it. Compass and SASS are new to me, more CSS frameworks to learn :(.</p>
+
+<p>That&#8217;s it folks for now, will update with more changes I am planning to the site.</p>
+</div>
+  
+  
+
+
+    </article>
   
   <div class="pagination">
     
@@ -86,10 +142,42 @@
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+  <p>Hi, I am Chaitanya Pramod. I am a Web Developer at <a href="http://www.directi.com/">Directi</a></p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/first-post/">First Post</a>
+      </li>
+    
   </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("chaitanyapramod", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/chaitanyapramod" class="twitter-follow-button" data-show-count="true">Follow @chaitanyapramod</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/chaitanyapramod?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/chaitanyapramod">My Delicious Bookmarks &raquo;</a></p>
 </section>
 
 <section>
@@ -122,27 +210,9 @@
 </section>
 
 
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("chaitanyapramod", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/chaitanyapramod" class="twitter-follow-button" data-show-count="true">Follow @chaitanyapramod</a>
-  
-</section>
-
-
-
 <section class="googleplus googleplus-hidden">
   <h1>
-    <a href="https://plus.google.com/kchaitanyapramod?rel=author">
+    <a href="https://plus.google.com/110167139782135652585?rel=author">
       <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
       Google+
     </a>
@@ -157,8 +227,10 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Chaitanya Pramod -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  Copy all you want under <a href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0</a>
+   - Chaitanya Pramod -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
+  <span class="credit">Hosted on <a href="http://www.github.com/">Github</a></span>
 </p>
 
 </footer>

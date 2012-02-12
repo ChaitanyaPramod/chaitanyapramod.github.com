@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Chaitanya Pramod</title>
+  <title>First Post - Chaitanya Pramod</title>
   <meta name="author" content="Chaitanya Pramod">
 
   
-  <meta name="description" content="Blog Archive 2012 First Post
-Feb 12 2012 Recent Posts First Post Latest Tweets Status updating... $.domReady(function(){ getTwitterFeed(" &hellip;">
+  <meta name="description" content="Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here.
+Working with Octopress was fun. Setting up a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ Feb 12 2012 Recent Posts First Post Latest Tweets Status updating... $.domReady(
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="www.chaitanyapramod.com/blog/archives">
+  <link rel="canonical" href="www.chaitanyapramod.com/blog/first-post">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,38 +79,113 @@ Feb 12 2012 Recent Posts First Post Latest Tweets Status updating... $.domReady(
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">First Post</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-12T12:30:00+05:30" pubdate data-updated="true">Feb 12<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here.
+Working with <a href="http://octopress.org">Octopress</a> was fun. Setting up a blog on commandline is way cooler than doing it the wordpress style. Of course, Octopress drew me to itself with its subtitle:</p>
 
-  
-  <h2>2012</h2>
+<blockquote><p>A blogging framework for hackers.</p></blockquote>
 
-<article>
-  
-<h1><a href="/blog/first-post/">First Post</a></h1>
-<time datetime="2012-02-12T12:30:00+05:30" pubdate><span class='month'>Feb</span> <span class='day'>12</span> <span class='year'>2012</span></time>
+<p>I noticed <a href="http://nimbupani.com/">Divya Manian</a> <a href="http://nimbupani.com/redesign-notes.html">move her blog to Octopress</a>. After looking up Octopress and what people feel about it (everyone seems to like it), I decided to try it myself.</p>
 
+<p>After reading almost all of the <a href="http://octopress.org">Octopress site</a>, I cloned the <a href="http://github.com/imathis/octopress">Octopress repo</a>, setup a <a href="https://disqus.com">Disqus</a> account for the site and plugged in account into the config files. All commands are run through rake, which makes it as easy as:</p>
 
-</article>
+<blockquote><p>rake new_page[page_title]         # create a new page<br/>
+rake new_post[post_title]         # create a new post<br/>
+rake preview                      # fire up a local server and prievew the site at localhost:4000
+rake deploy                       # Make it live! :)</p></blockquote>
 
+<p>Just now realized that syntax highlighting breaks on Windows. Gotta find a fix for it soon. The Google Fonts were making the pages render slower, so I am thinking if they should be removed. The styles look good, but will spend some time on the CSS and fiddle around with it. Compass and SASS are new to me, more CSS frameworks to learn :(.</p>
+
+<p>That&#8217;s it folks for now, will update with more changes I am planning to the site.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Chaitanya Pramod</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-12T12:30:00+05:30" pubdate data-updated="true">Feb 12<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="www.chaitanyapramod.com/blog/first-post/" data-via="chaitanyapramod" data-counturl="www.chaitanyapramod.com/blog/first-post/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+  <p>Hi, I am Chaitanya Pramod. I am a Web Developer at <a href="http://www.directi.com/">Directi</a></p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -175,6 +250,7 @@ Feb 12 2012 Recent Posts First Post Latest Tweets Status updating... $.domReady(
 </section>
 
 
+
 <section class="googleplus googleplus-hidden">
   <h1>
     <a href="https://plus.google.com/110167139782135652585?rel=author">
@@ -206,7 +282,10 @@ Feb 12 2012 Recent Posts First Post Latest Tweets Status updating... $.domReady(
       var disqus_shortname = 'chaitanyapramod';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'www.chaitanyapramod.com/blog/first-post/';
+        var disqus_url = 'www.chaitanyapramod.com/blog/first-post/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
