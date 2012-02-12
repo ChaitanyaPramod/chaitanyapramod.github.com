@@ -4,7 +4,7 @@
   <title><![CDATA[Chaitanya Pramod]]></title>
   <link href="www.chaitanyapramod.com/atom.xml" rel="self"/>
   <link href="www.chaitanyapramod.com/"/>
-  <updated>2012-02-12T16:05:25+05:30</updated>
+  <updated>2012-02-12T16:45:34+05:30</updated>
   <id>www.chaitanyapramod.com/</id>
   <author>
     <name><![CDATA[Chaitanya Pramod]]></name>
@@ -29,7 +29,7 @@ Working with <a href="http://octopress.org">Octopress</a> was fun. Setting up a 
 
 <blockquote><p>rake new_page[page_title]         # create a new page<br/>
 rake new_post[post_title]         # create a new post<br/>
-rake preview                      # fire up a local server and prievew the site at localhost:4000
+rake preview                      # fire up a local server and preview the site at localhost:4000<br/>
 rake deploy                       # Make it live! :)</p></blockquote>
 
 <p>Just now realized that syntax highlighting breaks on Windows. Gotta find a fix for it soon. The Google Fonts were making the pages render slower, so I am thinking if they should be removed. The styles look good, but will spend some time on the CSS and fiddle around with it. Compass and SASS are new to me, more CSS frameworks to learn :(.</p>
