@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Chaitanya Pramod]]></title>
-  <link href="www.chaitanyapramod.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Books | Chaitanya Pramod]]></title>
+  <link href="www.chaitanyapramod.com/blog/categories/books/atom.xml" rel="self"/>
   <link href="www.chaitanyapramod.com/"/>
   <updated>2012-04-23T04:40:09+05:30</updated>
   <id>www.chaitanyapramod.com/</id>
@@ -18,7 +18,7 @@
     <link href="www.chaitanyapramod.com/blog/viral-loop-and-the-lean-startup/"/>
     <updated>2012-04-23T03:04:00+05:30</updated>
     <id>www.chaitanyapramod.com/blog/viral-loop-and-the-lean-startup</id>
-    <content type="html"><![CDATA[<p>Disruption of internet service can make you do things you wouldn&#8217;t have imagined doing anytime soon. For me this weekend, it was reading books that have long been collecting dust on my desk. I read Viral Loop on Saturday and The Lean Startup on Sunday. These bullet points are just a way for me to recall what I learned from these books.</p>
+    <content type="html"><![CDATA[<p>Disruption of internet service can make you do things you wouldn't have imagined doing anytime soon. For me this weekend, it was reading books that have long been collecting dust on my desk. I read Viral Loop on Saturday and The Lean Startup on Sunday. These bullet points are just a way for me to recall what I learned from these books.</p>
 
 <h2><a href="http://www.amazon.com/Viral-Loop-Facebook-Businesses-Themselves/dp/1401323499">Viral Loop</a> (<a href="http://www.penenberg.com/">Adam Penenberg</a>)</h2>
 
@@ -110,7 +110,7 @@
 </ul>
 </li>
 <li>Argument resolution through split test reports</li>
-<li>Three A&#8217;s of metrics:
+<li>Three A's of metrics:
 
 <ul>
 <li>Actionable</li>
@@ -139,46 +139,13 @@
 <li>Countinuous innovation and continuous deployment</li>
 <li>Build-measure-learn cycle and planning it backward</li>
 <li>Controlled scaling (Gmail)</li>
-<li>The five why&#8217;s</li>
+<li>The five why's</li>
 <li>User story for every feature</li>
 <li>Collect and organize feedback from various forums</li>
 </ul>
 
 
-<p>You can find lots of common references between these two books. Overall, it has been an entertaining and meaningful journey. I recommend these books to anyone building a product s/he&#8217;s is expecting to take over the world. Now that these two books are off my <a href="http://www.goodreads.com/review/list/6917881?shelf=to-read">to-read list</a>, wondering what to <a href="http://www.goodreads.com/review/list/6917881?shelf=to-read">read next</a>&#8230; <a href="http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143">Toyota Production System</a> by Taiichi Ohno?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="www.chaitanyapramod.com/blog/first-post/"/>
-    <updated>2012-02-12T12:30:00+05:30</updated>
-    <id>www.chaitanyapramod.com/blog/first-post</id>
-    <content type="html"><![CDATA[<p>Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here.
-Working with <a href="http://octopress.org">Octopress</a> was fun. Setting up a blog on commandline is way cooler than doing it the wordpress style. Of course, Octopress drew me to itself with its subtitle:</p>
-
-<blockquote><p>A blogging framework for hackers.</p></blockquote>
-
-<p>I noticed <a href="http://nimbupani.com/">Divya Manian</a> <a href="http://nimbupani.com/redesign-notes.html">move her blog to Octopress</a>. After looking up Octopress and what people feel about it (everyone seems to like it), I decided to try it myself.</p>
-
-<p>After reading almost all of the <a href="http://octopress.org">Octopress site</a>, I cloned the <a href="http://github.com/imathis/octopress">Octopress repo</a>, setup a <a href="https://disqus.com">Disqus</a> account for the site and plugged in account into the config files. All commands are run through rake, which makes it as easy as:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_page[page_title]   # create a new page  
-</span><span class='line'>rake new_post[post_title]   # create a new post  
-</span><span class='line'>rake preview                # fire up a local server and preview the site at localhost:4000  
-</span><span class='line'>rake deploy                 # Make it live! :)</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Just now realized that syntax highlighting breaks on Windows. Gotta find a fix for it soon. The Google Fonts were making the pages render slower, so I am thinking if they should be removed. The styles look good, but will spend some time on the CSS and fiddle around with it. Compass and SASS are new to me, more CSS frameworks to learn :(.</p>
-
-<p>That&#8217;s it folks for now, will update with more changes I am planning to the site.</p>
-
-<p>Update (23 April, 2012):
-Syntax highlighting (Pygments) worked fine today, probably because I&#8217;m using ruby 1.9.3?</p>
+<p>You can find lots of common references between these two books. Overall, it has been an entertaining and meaningful journey. I recommend these books to anyone building a product s/he's is expecting to take over the world. Now that these two books are off my <a href="http://www.goodreads.com/review/list/6917881?shelf=to-read">to-read list</a>, wondering what to <a href="http://www.goodreads.com/review/list/6917881?shelf=to-read">read next</a>... <a href="http://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale/dp/0915299143">Toyota Production System</a> by Taiichi Ohno?</p>
 ]]></content>
   </entry>
   
