@@ -13,22 +13,43 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Chaitanya Pramod
+# email: iam@chaitanyapramod.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  (Not so) Random words by a Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.chaitanyapramod.com" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: ChaitanyaPramod
+# github_username: ChaitanyaPramod
+
+# For SEO plugin
+twitter:
+  username: ChaitanyaPramod
+facebook:
+  app_id: 307518499741291
+  publisher: ChaitanyaPramod
+  admins: ChaitanyaPramod
+social:
+  name: Chaitanya Pramod
+  links:
+    - https://twitter.com/ChaitanyaPramod
+    - https://www.facebook.com/ChaitanyaPramod
+    - https://www.linkedin.com/in/ChaitanyaPramod
+    - https://plus.google.com/+ChaitanyaPramod
+    - https://github.com/ChaitanyaPramod
+
+google_analytics: UA-29122928-1
+disqus:
+  shortname: chaitanyapramod
 
 # Build settings
 markdown: kramdown
 theme: minima
+livereload: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
