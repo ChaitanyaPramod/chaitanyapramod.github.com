@@ -3,7 +3,7 @@ layout: post
 title:  "Viral Loop & the Lean Startup"
 date:   2012-04-23 03:04:00 +0530
 category: books
-permalink: /blog/viral-loop-and-the-lean-startup/
+permalink: /blog/viral-loop-and-the-lean-startup
 description: Notes on books Viral Loop and The Lean Startup
 ---
 Disruption of internet service can make you do things you wouldn’t have imagined doing anytime soon. For me this weekend, it was reading books that have long been collecting dust on my desk. I read Viral Loop on Saturday and The Lean Startup on Sunday. These bullet points are just a way for me to recall what I learned from these books.
