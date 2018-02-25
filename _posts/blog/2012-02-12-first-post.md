@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "First Post"
 date:   2012-02-12 12:30:00 +0530
 permalink: /blog/first-post
-description: Set up Octopress blog
+excerpt: My journey setting up a Jekyll blog
 ---
 Phew, just finished the basic setup of my brand-new blog-site. It took almost five hours to get here. Working with [Octopress](http://octopress.org) was fun. Setting up a blog on commandline is way cooler than doing it the wordpress style. Of course, Octopress drew me to itself with its subtitle:
 
@@ -23,6 +22,4 @@ rake deploy                 # Make it live! :)
 Just now realized that syntax highlighting breaks on Windows. Gotta find a fix for it soon. The Google Fonts were making the pages render slower, so I am thinking if they should be removed. The styles look good, but will spend some time on the CSS and fiddle around with it. Compass and SASS are new to me, more CSS frameworks to learn :(.
 
 That’s it folks for now, will update with more changes I am planning to the site.
-
-Update (23 April, 2012): Syntax highlighting (Pygments) worked fine today, probably because I’m using ruby 1.9.3?
 
